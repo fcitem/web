@@ -32,8 +32,8 @@ $(document).ready(function () {
   $('.second-menu').css("display","none");  /*第一次隐藏所有的二级菜单*/ 
   debugger;
   $('.top-menu').click(function(){
+	  $('.second-menu').css("display","none");
 	  $(this).children("ul.second-menu").css("display","block");
-	  $(this).addClass('fa fa-angle-left');
 //	  $('.second-menu').css("display","block");
   })
 });

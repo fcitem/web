@@ -5,7 +5,6 @@
 .top-menu{
 	background-color: rgb(26,26,26);
 	color:#b8c7ce !important;
-	/* width:10%; */
 }
 .top-menu > a:ACTIVE,
 .top-menu > a:HOVER,
@@ -13,25 +12,26 @@
 	background-color: rgb(30,40,44) !important; 
 	color:white !important;
 }
-.top-menu ul{
+.second-menu{
 	text-decoration: none;
 	background-color:rgb(44,59,65);
 }
-.top-menu ul li{
+.second-menu li{
 	text-decoration:none;
 	list-style:none;
 	list-style-type:none;
 	color: white;
+	/* transition:height 5s linear; */
 }
-.top-menu ul li a{
+.second-menu li a{
 	color: #8aa4af;
 	list-style:none;
 	border-radius: 0px;
 	text-decoration:none !important;
 }
-.top-menu ul li a:HOVER,
-.top-menu ul li a:FOCUS,
-.top-menu ul li a:active{
+.second-menu li a:HOVER,
+.second-menu li a:FOCUS,
+.second-menu li a:active{
 	color: white;
 }
 .arrow-left {
